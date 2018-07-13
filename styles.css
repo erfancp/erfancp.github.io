@@ -1,0 +1,580 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+	border: 0px;
+	text-align: center;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(images/bg_top.gif) top repeat-x  #FFFFFF;
+	line-height: 18px;
+}
+
+#bg_bot { background: url(images/bg_bot.gif) bottom repeat-x;}
+	
+#main {
+	width: 800px;
+	margin: 0px auto;
+	background:url(images/main.jpg) right top no-repeat;}
+
+#header {
+	height: 80px;
+	text-align: center;
+}
+
+#logo {	
+		padding: 30px 0px 0px 0px;
+		float: left;
+		width: 300px;
+}
+
+
+#logo a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight:bold;
+	font-style: italic;
+
+}
+	
+#logo H2 a{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 0px;
+	text-align: center;
+}
+
+#buttons{
+	text-align:center;
+	height: 47px;
+	margin-left: 0px;
+	padding: 31px 0px 0px 0px;
+	float:right;
+	width: 478px;
+	
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 100;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 7px;
+	height: 25px;
+}
+
+.but1 { width: 69px;}
+.but2 { width: 60px;}
+.but3 { width: 76px;}
+.but4 { width: 90px;}
+.but5 { width: 102px;}
+
+.but1:hover { background: url(images/but1.png);}
+.but2:hover { background: url(images/but2.png);}
+.but3:hover { background: url(images/but3.png);}
+.but4:hover { background: url(images/but4.png);}
+.but5:hover { background: url(images/but5.png);}
+
+
+#buttons .but_n {
+}
+
+.but_razd { height: 10px;
+			width: 17px;
+			float: left;}
+
+#buttons .but:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background: url(images/but_hover.png) left top no-repeat;
+	}
+
+	
+.top {
+	height:318px;
+	padding: 22px 25px 0px 25px;
+	color:#ffffff;
+		
+	}	
+	
+.top_right { float: right;
+			background: url(images/top_left.gif) left top no-repeat;
+			width: 262px;
+			height: 271px;
+			padding: 10px;
+		}
+		
+.spis_top { list-style: none;
+			padding: 0px 0px 0px 16px;}
+
+.spis_top li {	background: url(images/spis_top.gif) 0px 11px no-repeat;
+				padding: 4px 0px 0px 23px;}
+				
+.spis_top a { color:#FFFFFF;
+			text-decoration: none;
+			font-size:14px;}	
+.spis_top a:hover { text-decoration:underline;}			
+						
+
+.top_img { background: url(images/top_img.jpg) left top no-repeat;
+		height: 292px;
+		width: 466px;
+		float: left;}
+.top_img2 { background: url(images/top_img2.jpg) left top no-repeat;
+		height: 292px;
+		width: 466px;
+		float: left;}
+		
+.top_img3 { background: url(images/top_img3.jpg) left top no-repeat;
+		height: 292px;
+		width: 466px;
+		float: left;}
+				
+		
+.circl_all {
+		height: 17px; 
+		vertical-align:top;
+		width: 75px;
+		margin: auto;
+		padding: 16px 0px 16px 0px;}
+
+.circl { background: url(images/circl.png) left top no-repeat;
+	height: 17px;
+	width: 17px;
+	margin: 0px 7px 0px 0px;
+	text-align: center;
+	float:right; }
+.circl:hover {
+	background:url(images/circl_hover.png) left top no-repeat; }
+	
+
+#content{
+	background: url(images/content.gif) left repeat-y;
+	padding: 0px 0px 0px 0px;
+}
+.content_razd{
+	background: url(images/content_razd.gif) 832px repeat-y;
+	padding: 0px 0px 0px 0px;
+	clear:both;
+}
+
+
+.all_box { background: url(images/all_box.gif) center top no-repeat;
+			padding: 15px 0px 0px 0px;}
+
+.razd_col {
+	background:url(images/razd_col.gif) 25px 5px no-repeat;
+	height: 35px;
+	float:left;
+	width: 19px;}
+	
+.box {
+	float: left;
+	width: 263px;
+	padding: 0px 0px 0px 0px;}
+	
+.box_l {float: left;
+	text-align: left;
+	width: 57px;
+	padding: 0px 0px 0px 0px;}
+	
+.box_r {float: left;
+	width: 200px;
+	padding: 0px 0px 0px 0px;}	
+	
+.row_ind {}
+
+a:hover {
+	color: #666666;
+	text-decoration: underline;}
+
+#left{
+	width: 251px;
+	float: left;
+	margin-left: 16px;
+	padding: 0px 0px 0px 0px;
+}
+
+.img_l {	float:left;
+		margin: 5px 20px 0px 0px;
+}
+
+.img_r {	float: right;
+		margin: 0px 0px 0px 15px;
+}
+
+H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight: 100;
+	color: #ffffff;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+}
+
+#content .top .scrollable .items .item .top_right H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+
+H2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+
+.read{
+	display:block;
+	float: right;
+	width: 67px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	height: 22px;
+	text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
+	font-size:12px;
+	font-weight: 100;
+	background: url(images/read.png) left top no-repeat;
+}
+
+.read:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+.line {
+	height: 2px;
+	background-color: #FFF;
+	background-image: url(images/line.gif);
+	background-repeat: repeat-x;
+}
+
+.text { padding: 0px 16px 0px 16px;}
+
+
+#right{
+	float: right;
+	width: 507px;
+	margin-right: 14px;
+}
+	
+#bottom {
+	width: 100%;
+	background: url(images/bottom.gif) left repeat-y;
+	color:#000000;
+	padding: 0px 0px 0px 0px;
+	height: 265px;
+}
+
+#bottom h2{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px 0px 18px 0px;
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	font-weight: 100;
+	line-height: 20px;
+}
+
+.b_col1 {
+	width: 136px;
+	float: left;
+	margin-left: 0px;
+}
+.b_col2 {
+	width: 213px;
+	float: left;
+	margin-left: 24px;
+}
+
+.b_col3 {
+	width: 230px;
+	float: left;
+	margin-left: 8px;
+	text-align: center;
+}
+
+.b_col4 {
+	width: 158px;
+	float: left;
+	margin-left: 30px;
+	text-align: left;
+}
+
+.lh { line-height: 25px;}
+
+.spis {
+	list-style:none;
+	padding: 0px 0px 0px 5px;}
+
+.spis li {
+	padding: 5px 0px 0px 16px;
+	background: url(images/spis.gif) 0px 12px no-repeat;
+	}
+.spis a:hover {
+	text-decoration:underline;
+	}
+	
+.spis a {
+	color:#000000;
+	text-decoration:none;}
+	
+.fu_i {
+	padding: 0px 14px 0px 0px;
+	vertical-align: middle ;
+}
+
+.spisb2 {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spisb2 li {
+	padding: 10px 0px 0px 0px;
+	background: none;
+	}
+	
+.spisb2 li a {
+	color:#000000;
+	text-decoration: none;
+	padding-top: 2px;
+	font-weight:100;
+	
+}
+.spisb2 li a:hover {
+	text-decoration: underline;
+}
+
+#footer{
+	height: 54px;
+	font-size: 11px;
+	color: #000000;
+	text-align: center;
+	padding: 15px 0px 0px 0px;
+	background: url(images/footer.jpg) 0px 15px no-repeat;
+	font-weight: 100;
+}
+
+#footer a{
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: 100;
+}
+
+#footer a:hover{
+	color: #000000;
+	font-size: 11px;
+	text-decoration: underline;
+	font-weight: 100;
+}
+
+
+
+/* calendar */	
+
+
+#calendar {
+	margin: 0px 0px 0px 0px;
+	color:#000000;
+	font-size:10px;
+	line-height: 15px;
+	text-align: center;
+}
+
+#calendar a {
+	color:#000000;
+}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+
+}
+
+#calendar td {
+	height: 15px;
+}
+
+#calendar #prev{
+	text-align: left;
+}
+#calendar #prev a{
+	color:#000000;
+}
+
+#calendar #next {
+	text-align: right;
+}
+#calendar #next a{
+	color:#000000;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #529EBB;
+	border: 1px solid #3C4F77;
+	font-weight: bold;
+	color: #ffffff
+}	
+
+
+/*
+scroll styles here
+*/
+
+.item { width: 760px; height: 315px;}
+.item img {float:left;}
+.item h2 { border:none; margin-bottom:15px;}
+
+.scrollable { position:relative; overflow:hidden; width: 760px; height: 315px;} 
+.scrollable .items {
+	width:261845px;
+	position:absolute;
+	left: 17px;
+	height: 103px;
+	top: 2px;
+}
+.scrollable .items div { float:left;} 
+.scrollable .items .item { overflow:hidden;}
+.scrollable .items .item p { line-height:16px;}
+.navi { width:auto; height:20px; margin:5px 0; padding-left: 320px; padding-top: 14px} 
+.navi a { width: 16px; cursor:pointer; height: 16px; float:left; margin:0 0 0 3px; background:url(images/circl.png) no-repeat scroll right top; display:block; font-size:1px;} 
+.navi a:hover, .navi a.active { background-position:left top; margin:0 0 0 3px;  background:url(images/circl_hover.png) no-repeat scroll right top}
+
+.header1
+{
+width: 760px; height: 315px;
+
+}
+
+.header2
+{
+width: 760px; height: 315px;
+}
+
+.header3
+{
+width: 760px; height: 315px;
+}
+
+
+/* ------------------------------------------------------------------------
+DO NOT CHANGE
+------------------------------------------------------------------------- */
+
+
+div.pp_overlay {background: #000;display: none;left: 0;position: absolute;top: 0;width: 100%;z-index: 9500;}
+div.pp_pic_holder {display: none;position: absolute;width: 100px;z-index: 10000;}
+#bg_bot #main #header p {
+	text-align: center;
+}
+#bg_bot #main #content div div table tr th {
+	text-align: center;
+}
+#bg_bot #main #content .all_box .box .box_r p {
+	text-align: left;
+}
+#bg_bot #main #content .all_box .box .box_r p strong {
+	font-size: 18px;
+}
+#bg_bot #main #content .all_box .box .box p strong {
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+}
+#bg_bot #main #content .all_box .box .box p {
+	color: #006;
+}
+#bg_bot #main #content .all_box .box .box p {
+	color: #003;
+}
+#bg_bot #main #content .top .scrollable .items .text .top_right h1 strong {
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+}
+#bg_bot #main #content .all_box .box .item blockquote p {
+	text-align: justify;
+}
+#bg_bot #main #content .all_box .box .item blockquote p {
+
+}
+#bg_bot #main #content .all_box .box p strong {
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+}
+#bg_bot #main #bottom .b_col3 #calendar table thead tr th {
+
+}
+#bg_bot #main #content .all_box table tr td strong {
+	text-align: left;
+}
+#bg_bot #main #content .all_box table tr td table tr td p {
+	text-align: left;
+}
+#bg_bot #main #content .all_box table tr td table tr td {
+	text-align: left;
+}
+#bg_bot #main #content .all_box table tr td table tr td #form1 {
+	font-weight: bold;
+}
+#bg_bot #main #content .all_box table tr td #form1 p strong {
+	text-align: center;
+}
+#bg_bot #main #content .all_box table tr td #form1 p strong {
+	text-align: center;
+}
+#bg_bot #main #content .all_box table tr td #form1 p {
+	font-weight: bold;
+}
+#bg_bot #main #content .all_box table tr td #form1 p {
+	font-size: 14px;
+}
+#bg_bot #main #content .all_box table tr td #form1 p {
+	font-weight: normal;
+}
+#bg_bot #main #content .all_box table tr td #form1 p {
+	font-size: 16px;
+}
+#bg_bot #main #content .all_box table tr td #form1 p {
+	font-size: 14px;
+}
+#bg_bot #main #content div {
+	text-align: left;
+}
